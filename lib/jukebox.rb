@@ -31,6 +31,7 @@ def play(songs)
   if user_response.to_i >= 1 && user_response.to_i <= songs.length
     puts "Playing #{songs[user_response.to_i-1]}"
     elsif songs.include?(user_response)
+    puts "Playing "
 end 
 
 def exit_jukebox
