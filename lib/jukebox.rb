@@ -34,6 +34,7 @@ def play(songs)
     puts "Playing #{songs.find {|song| song == user_response}}"
   else 
     puts "Invalid input, please try again"
+  end 
 end 
 
 def exit_jukebox
