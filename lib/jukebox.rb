@@ -30,6 +30,7 @@ def play(songs)
   user_response = gets.strip 
   if user_response.to_i >= 1 && user_response.to_i <= songs.length
     puts "Playing #{songs[user_response.to_i-1]}"
+    elsif 
 end 
 
 def exit_jukebox
