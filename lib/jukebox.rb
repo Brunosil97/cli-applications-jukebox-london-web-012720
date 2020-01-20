@@ -45,7 +45,7 @@ def run
   def run(songs)
   while true do
     puts "Please enter a command:"
-    user_response = gets.chomp
+    user_response = gets.strip
     case user_response
     when "exit"
       exit_jukebox
