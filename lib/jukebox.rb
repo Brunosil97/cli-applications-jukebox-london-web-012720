@@ -30,3 +30,7 @@ def play(songs)
   user_response = gets.strip 
   if user_response 
 end 
+
+def exit_jukebox
+  puts "Goodbye"
+end 
