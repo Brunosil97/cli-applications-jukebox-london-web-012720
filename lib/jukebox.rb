@@ -19,4 +19,4 @@ def help
 end 
 
 def list(songs)
-  
+  song.each_with_index do |
